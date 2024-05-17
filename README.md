@@ -4,6 +4,10 @@
 
 Template for setting up a quick [shadcn/ui](https://ui.shadcn.com)+[react](https://react.dev/)+[vite](https://vitejs.dev/) project
 
+## Components installed
+- [shadcn/ui](https://ui.shadcn.com)
+- [react-router-dom](https://reactrouter.com/en/main)
+
 ## Local Setup
 ### Installation
 ```
