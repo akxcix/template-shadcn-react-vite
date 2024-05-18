@@ -1,22 +1,20 @@
 import { Outlet } from "react-router-dom";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 
 export default function Root() {
     return (
-      <>
-        <div id="navbar">
-          <nav>
-            <a href={`/`}>Home</a>
-            <a href={`/contact`}>Contact</a>
-          </nav>
-        </div>
-        <div id="detail">
+        <div id="root">
+            <div className="flex flex-col h-screen">
+            <Navbar />
             <Outlet />
+
+            <div className="grow">
+
+            </div>
+            <Footer />
+            </div>
+            
         </div>
-        <div id="footer">
-            <a href={`https://github.com/akxcix/template-shadcn-react-vite`}>GitHub</a>
-            <a href={`https://twitter.com`}>Twitter</a>
-        </div>
-      </>
     );
-  }
-  
+}
