@@ -7,6 +7,11 @@ Template for setting up a quick [shadcn/ui](https://ui.shadcn.com)+[react](https
 ## Components installed
 - [shadcn/ui](https://ui.shadcn.com)
 - [react-router-dom](https://reactrouter.com/en/main)
+- [plausible analytics](https://plausible.io)
+
+## Things to change
+- index.html: change analytics link (or remove)
+- index.html: change title
 
 ## Local Setup
 ### Installation
