@@ -23,7 +23,9 @@ export default function Navbar() {
                         <Flower className="h-6 w-6" />
                         <span className="sr-only">Acme Inc</span>
                     </Link>
-                    {headerLinks.map((link) => (<Link to={link.link}>{link.name}</Link>))}
+                    {headerLinks.map((link, index) => (
+                        <Link key={index} to={link.link}>{link.name}</Link>
+                    ))}
                 </nav>
                 <div className="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
                     <form className="ml-auto flex-1 sm:flex-initial">
